@@ -1,0 +1,11 @@
+@import "./../../../Sass/mixins.scss";
+
+.dark-theme-btn {
+	@include option-button;
+
+	.icon {
+		&.animate {
+			transform: scale(0.2);
+		}
+	}
+}

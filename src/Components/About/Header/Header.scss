@@ -1,0 +1,13 @@
+@import "./../../../Sass/mixins";
+
+.about-header {
+	margin-bottom: 80px;
+
+	.about-title {
+		@include section-title;
+	}
+
+	.about-paragraph {
+		@include section-paragraph;
+	}
+}

@@ -1,0 +1,27 @@
+@import "./../../../Sass/variables";
+@import "./../../../Sass/mixins.scss";
+
+.navbar-responsive-btn {
+	@include reset-btn;
+
+	@media (min-width: $minLargeScreens) {
+		display: none;
+	}
+
+	padding: 10px;
+	background-color: $main-color;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	transition: all 0.3s linear;
+
+	.line {
+		width: 25px;
+		height: 3px;
+		background-color: #fff;
+		transition: all 0.3s linear;
+
+		&:not(:last-of-type) {
+			margin-bottom: 5px;
+		}
+	}
+}

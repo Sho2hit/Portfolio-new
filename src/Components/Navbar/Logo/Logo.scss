@@ -1,0 +1,14 @@
+@import "./../../../Sass/variables";
+@import "./../../../Sass/mixins.scss";
+
+.logo {
+	@include logo;
+
+	.logo-image {
+		@include logo-image;
+	}
+
+	.logo-text {
+		@include logo-text;
+	}
+}

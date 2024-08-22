@@ -1,0 +1,37 @@
+@import "./../../../Sass/variables";
+@import "./../../../Sass/mixins";
+
+.contact-header {
+	margin-bottom: 50px;
+
+	.contact-title {
+		@include section-title;
+		text-align: left;
+		margin-bottom: 20px;
+	}
+
+	.contact-paragraph {
+		@include section-paragraph;
+		text-align: left;
+		width: auto;
+	}
+
+	.social-links {
+		margin-top: 25px;
+
+		a {
+			@include reset-link;
+			color: $third-color;
+			display: inline-block;
+
+			&:not(:last-of-type) {
+				margin-right: 25px;
+			}
+
+			.icon {
+				font-size: 1.9rem;
+				color: $main-color;
+			}
+		}
+	}
+}

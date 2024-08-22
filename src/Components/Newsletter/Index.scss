@@ -1,0 +1,36 @@
+@import "../../Sass/Variables";
+@import "../../Sass/mixins";
+
+.newsletter {
+	background-color: $background-color;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	text-align: center;
+	position: relative;
+	min-height: 400px;
+
+	@media (max-width: $maxXSmallScreens) {
+		padding-bottom: 20px;
+	}
+
+	.newsletter-header {
+		margin-bottom: 50px;
+
+		.newsletter-title {
+			@include section-title;
+
+			@media (max-width: $maxXSmallScreens) {
+				font-size: 2.4rem;
+			}
+		}
+
+		.newsletter-paragraph {
+			@include section-paragraph;
+			width: 670px;
+		}
+	}
+
+	.newsletter-form {
+		@include newsletter-form;
+	}
+}

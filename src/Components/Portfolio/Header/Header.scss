@@ -1,0 +1,18 @@
+@import "./../../../Sass/variables";
+@import "./../../../Sass/mixins";
+
+.portfolio-header {
+	margin-bottom: 100px;
+
+	@media (max-width: $maxSmallScreens) {
+		margin-bottom: 60px;
+	}
+
+	.portfolio-title {
+		@include section-title;
+	}
+
+	.portfolio-paragraph {
+		@include section-paragraph;
+	}
+}

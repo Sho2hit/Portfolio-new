@@ -1,0 +1,210 @@
+-------------------- Navbar --------------------
+---- [ Done ] Close Navbar When Change Page In Responsive
+---- [ Done ] Change Navbar Links Active Link Main Color In Default theme In Dark theme
+---- [ Done ] Big Preformance Problem With Resize
+---- [ Done ] Big Preformance Problem With Scroll
+---- [ Done ] Problem When Close Navbar When Click Any Where On The Document
+---- [ Done ] Set Body Padding Dynamic Depend On Navbar Height
+---- [ Done ] Add Close Navbar By Press ESC
+---- [ Done ] Remove Navbar Height Becouse It No Reason To Use It
+-------------------- Navbar --------------------
+
+-------------------- Header Section --------------------
+---- [ Done ] Explore Btn Scroll To Services Section
+---- [ Done ] Increas Space Between Text & Image In Responsive
+---- [ Done ] Change Explore Function
+-------------------- Header Section --------------------
+
+-------------------- Services --------------------
+---- [ Done ] Change Hove Color
+---- [ Done ] Resize Services Image
+-------------------- Services --------------------
+
+-------------------- Portfolio Secion --------------------
+---- [ Done ] Problem In portfoli getComputedStyle [ useEffect ] for resize & first load
+---- [ Done ] Change portfoli Animation And Hide element from space
+---- [ Done ] Fix Project Link
+---- [ Done ] Hide Nav Line In Small Screens
+---- [ Done ] Fix Big Preformance Problem In Resize
+---- [ Done ] useDebounce To Handle Nav Line Resize
+---- [ Done ] useThrottle To Handle Nav Link Click
+---- [ Done ] Fix Active Class Problem
+---- [ Done ] Portfolio Project Name Change In Dark Mode To Black [ Change Name Color Or Background Color ]
+---- [ Done ] Change Header Title Color In Light Theme
+---- [ Done ] Fix Active Class Color Problem In Dark Theme
+---- [ Done ] Fix Line Color Problem In Dark Theme
+---- [ Done ] Fix Portfolio Nav Click On The Same Active Link
+-------------------- Portfolio Secion --------------------
+
+-------------------- Team --------------------
+---- [ Done ] Problem In Team When Refresh
+---- [ Done ] Fix Member Link
+---- [ Done ] Hover With Shadow & Background Color
+---- [ Done ] Swiper Resize Preformance Problem
+-------------------- Team --------------------
+
+-------------------- Newslatter --------------------
+---- [ Done ] Collect Newslatter Style In One Scss Component
+---- [ Done ] Make Field Required
+---- [ Done ] Controlled Component
+-------------------- Newslatter --------------------
+
+-------------------- Contact --------------------
+---- [ Done ] Resize Contact Form Background
+---- [ Done ] Change Say Hi Color In Light theme & Handle Form Background Size
+---- [ Done ] Make Form Fields Required
+---- [ Done ] Handle Submit Function
+---- [ Done ] Save Form Value In Local Storage
+---- [ Done ] useThrottle When Send Data To Avoid Dublicate
+---- [ Done ] Use Axios Insted Of Fetch
+---- [ Done ] Make Awesome Loading When Send Message
+---- [ Done ] Disable Form Inputs When Data Send
+---- [ Done ] Handling Errors When Send Message
+---- [ Done ] Use JSON Server
+---- [ Done ] Hide Messages After Seconds
+---- [ Done ] Create Messages Api
+---- [ Done ] Cancel Axios Request When Unmount Component
+---- [ Done ] Problem With Timeout When Click A Lot
+---- [ Done ] Problem With Clenup When Empty Cancel State Fixed
+-------------------- Contact --------------------
+
+-------------------- Footer --------------------
+---- [ Done ] Fix Footer Links Add Everything In Json FIle
+-------------------- Footer --------------------
+
+-------------------- Global --------------------
+---- [ Done ] Split JSON File To Small Files
+---- [ Done ] Convert All Class Based To Function
+---- [ Done ] Change Class Based To Function
+---- [ Done ] Add Components Comments
+---- [ Done ] Extract Big Component In Small Files
+---- [ Done ] Block Images Select By User
+---- [ Done ] Decrease Padding In Our Team Section
+---- [ Done ] Fix Width Problem In Team Member In Extra Small Screens
+---- [ Done ] Create Logo Json File
+---- [ Done ] Mixin Logo Style
+---- [ Done ] Separete Mixins File In Small FIles
+---- [ Done ] Remove Height & background From Body
+---- [ Done ] Create Social Json FIle
+---- [ Done ] Make Header Dynamic
+---- [ Done ] Make Navbar Dynamic
+---- [ Done ] Change Navbar Shadow
+---- [ Done ] Scroll To Top Button
+---- [ Done ] Contact Background Need Resize [ Increase Padding ]
+---- [ Done ] Fix Some Accessiblity Problems
+---- [ Done ] Fix Scroll To TOp Button Errors
+---- [ Done ] Fix Link Problem In [ Services - Portfolio - Team ] Sections
+---- [ Done ] Fix Unmounted Component To Avoid Lake Memory
+---- [ Done ] Destructuring Small Props
+---- [ Done ] Error In Console When Change Page
+---- [ Done ] Change Some Settings To Change Start Create Controll Room For Colors
+---- [ Done ] TypeError: Cannot read property 'textContent' of null Portfolio Nav Section
+					---- [ Appear When Resize Page After Change Page ]
+---- [ Done ] TypeError: Cannot read property 'classList' of null
+					---- [ Appear When Resize Page After Change Page ]
+---- [ Done ] Increas Gap Between About Text & Image
+---- [ Done ] Create Option Buttons Component To Collect All Options Component In The Same Place
+---- [ Done ] Create Local Storage Custome Hook
+---- [ Done ] Add Dark theme
+---- [ Done ] Create Dark theme Hook & Add Local Storage In App Component
+---- [ Done ] Check User Preformance & Enable Dark theme
+---- [ Done ] Handle Images In Dark theme
+---- [ Done ] Dark theme Btn Break When CLick A Lot
+---- [ Done ] Use useContext To Apply Dark theme On Images & Button Icon
+---- [ Done ] Create Custome Hook useAxios
+---- [ Done ] Use useLayoutEffect Insted Of useEffect In Portfolio To Avoid Errors [ Not Working ]
+---- [ Done ] Maintance Some Code In Portfolio
+---- [ Done ] Change Class Name Or Animate Dark theme Btn From [ rotate ] To [ animate ]
+---- [ Done ] Portfolio Error [ Fix Resize Problem & Remove Resize Function When Unmount Component ]
+---- [ Done ] Create Newslatter Api
+---- [ Done ] Change Dark Mode To Dark Theme & Custome Hook File Name
+---- [ Done ] Change Svg Images Colors In Dark theme
+---- [ Done ] Think About Change Portfolio Forground Color
+---- [ Done ] Shadow Color [ Problem With Sass Should Use Sass Variable ]
+---- [ Done ] Some Ui Changes
+---- [ Done ] Accessiblity ( 97% )
+---- [ Done ] Change Sass Variables Syntax
+---- [ Done ] Split Variables Sass File In Small Files
+---- [ Done ] Cut Css Colors Variables To Index.scss To Avoid Repeat Code In Diffrent Sass Files When Import Colors Sass File
+---- [ Done ] Create useDebounce Custome Hook
+---- [ DOne ] Create useThrottle Custome Hook
+---- [ Done ] Change Upper Background Color Variable Sass Syntax
+---- [ Done ] Split Sass Mixins To Small Files
+---- [ Done ] Create White Color Variable
+---- [ Done ] Change Selection Color
+---- [ Done ] Make Add Parameters To Mixins Insted Of Override Proberty
+---- [ Done ] Imporve Fetch Data By Using Catch Error & Pending
+---- [ Done ] Make Loading For Fetching Data
+---- [ Done ] Create Loading Component
+---- [ Done ] Create Error Component
+---- [ Done ] Navbar First Click Problem
+---- [ Done ] Make Router Fade When Change Page
+---- [ Done ] Error In Console When Change Page Cause StrictMode
+---- [ Done ] Check Pages For Padding
+---- [ Done ] Navbar Background Color When Open In Responsive
+-------------------- Global --------------------
+
+-------------------- Important Notes --------------------
+---- [ Done ] Add useThrottle For Option Buttons
+---- [ Done ] Check All Components For Preformance Problems
+				---- [ Done ] Navbar
+				---- [ Done ] Header
+				---- [ Done ] Services
+				---- [ Done ] About
+				---- [ Done ] Portfolio
+				---- [ Done ] Team
+							---- Problem In Breaak Points
+							---- Big Preformance Problem Break Website In Dev Mode
+							---- This Problem Happend With React.StrictMode Only
+							---- Not A Problem In Optimize Version
+				---- [ Done ] Newsletter
+				---- [ Done ] Contact
+				---- [ Done ] Footer
+				---- [ Done ] Option Buttons
+---- [ Done ] Check Functions That Should Not Work In Main Page useRouteMatch react-router [ Portfolio Btn ]
+---- [ Done ] Problem With Pages When Click On Any Link Using React Router The Browser Remount Components In This Page
+				---- [ Done ] Navbar
+				---- [ Done ] Services
+				---- [ Done ] Portfolio
+				---- [ Done ] Team
+				---- [ Done ] Footer
+---- [ Done ] Create usePreventRouterLinks Hook For Handling Block Links To Remount Components
+---- [ Done ] Change Header Section Tag To Main
+---- [ Done ] Remove Body Padding
+---- [ Done ] Remove React Transition Group & Fade [ Not Good All The Time ]
+-------------------- Important Notes --------------------
+
+-------------------- Diffcult Problems --------------------
+---- [ Done ] Try Fix Sass Background Images Src [ Fix Webpack Problem ]
+				---- FIX 1 [ Move Images To src Folder ] [ It Not Working With API ]
+				---- FIX 2 [ Change 132 Line In webpack.config.js from (options: cssOptions) to (options: {url: false}) ]
+							---- This Fix Not Working For A Long Tearm & It's Not Right To Document
+				---- FIX 3 [ Change Sass & Use Styled Component ]
+				---- FIX 4 [ Put Sass Images In Src Folder But It's Not Good To Split Images ]
+				---- FIX 5 [ Add Images As Imline Style ] - The Used Fix
+				--------------- This Problem Happend Becouse React Scripts V4 ---------------
+				--------------- This Problem Can't Fix With Right Way ---------------
+-------------------- Diffcult Problems --------------------
+
+-------------------- Last Tasks --------------------
+---- [ Done ] 404 Page
+---- [ Done ] Check Prifixes
+-------------------- Last Tasks --------------------
+
+-------------------- Finish Tasks --------------------
+---- [ Done ] Check Preformance
+---- [ Done ] Check HTML Validation
+-------------------- Finish Tasks --------------------
+
+-------------------- Search --------------------
+---- [ Done ] Fieldset & Legend
+---- [ Done ] Review Forms
+---- [ Done ] React Hooks
+				---- [ useState, useEffect, useLayoutEffect, useRef, useCallback, useContext, useMemo ]
+---- [ Done ] React.StrictMode
+---- [ Done ] addEventListener & removeEventListener
+---- [ Done ] useEffect Clenup Function Review
+---- [ Done ] Fetch VS Axios
+---- [ Done ] React Router
+---- [ Done ] Check Refs & Portail
+-------------------- Search --------------------

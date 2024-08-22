@@ -1,0 +1,59 @@
+@import "./../../../Sass/Variables.scss";
+@import "./../../../Sass/mixins.scss";
+
+.footer-footer {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	align-items: center;
+	gap: 70px;
+
+	@media (max-width: $maxSmallScreens) {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 20px;
+	}
+
+	.logo {
+		@include logo;
+
+		@media (max-width: $maxSmallScreens) {
+			justify-self: center;
+		}
+
+		.logo-image {
+			@include logo-image;
+		}
+
+		.logo-text {
+			@include logo-text;
+			color: #fff;
+		}
+	}
+
+	.copy-right {
+		justify-self: center;
+		color: #fff;
+	}
+
+	.social-links {
+		justify-self: end;
+
+		@media (max-width: $maxSmallScreens) {
+			justify-self: center;
+		}
+
+		a {
+			@include reset-link;
+			color: $third-color;
+			display: inline-block;
+
+			&:not(:last-of-type) {
+				margin-right: 25px;
+			}
+
+			.icon {
+				font-size: 1.5rem;
+				color: #fff;
+			}
+		}
+	}
+}

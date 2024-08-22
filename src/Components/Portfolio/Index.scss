@@ -1,0 +1,12 @@
+@import "./../../Sass/variables";
+
+.portfolio {
+	background: $background-color no-repeat;
+	background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 100px;
+	overflow: hidden;
+	transition: all 0.5s ease;
+	position: relative;
+	min-height: 400px;
+}
